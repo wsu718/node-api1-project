@@ -3,7 +3,7 @@ const express = require('express');
 const Users = require('./data/db.js');
 
 const server = express();
-const cors = require('cors')
+const cors = require('cors');
 
 server.use(express.json());
 server.use(cors());
